@@ -1,7 +1,7 @@
-import { Feedback } from './Feedback';
+import { Feedback } from './Feedback/Feedback';
 import React from 'react';
 import { Statistic } from './Statistic';
-import { SectionTitle } from './SectionTitle';
+import { SectionTitle } from './SectionTitle/SectionTitle';
 export class App extends React.Component {
   state = {
     good: 0,
